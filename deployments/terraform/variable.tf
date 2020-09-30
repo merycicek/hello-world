@@ -1,5 +1,5 @@
 variable "deployment_image" {
-  default = "docker.indianagulu.com/hello-world-app-dev-feature:b00f3ed"
+  default = "docker.merycicek.com/hello-world-app-dev-feature:fe57059"
 }
 variable "deployment_environment" {
     default = "dev"
@@ -17,7 +17,7 @@ variable "deployment_endpoint" {
 }
 
 variable "google_domain_name" {
-  default = "indianagulu.com"
+  default = "merycicek.com"
 }
 
 output "application_endpoint" {
