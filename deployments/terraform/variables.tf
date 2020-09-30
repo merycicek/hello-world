@@ -1,9 +1,12 @@
+
 variable  "deployment_image" {
     default = "docker.fuchicorp.com/hello-world-app-dev-feature:4b7aacb"
 }
+
 variable "deployment_environment" {
     default = "dev"
 }
+
 variable "deployment_endpoint" {
     type = "map"
      default = {
@@ -14,6 +17,7 @@ variable "deployment_endpoint" {
         stage = "stage.hello"
   }
 }
+
 variable "google_domain_name" {
-    default = "merycicek.com"
+    default = "fuchicorp.com"
 }
